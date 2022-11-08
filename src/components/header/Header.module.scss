@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #b1aeae;
+}
+
+.logo__recolor {
+    background: linear-gradient(307.72deg, #A7F306 2.04%, #F3CD06 98.59%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header__menu ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.header__menu li {
+    color: #b1aeae;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.register {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.arrow {
+    margin-left: 10px;
+    transform: rotate(-60deg)
+}

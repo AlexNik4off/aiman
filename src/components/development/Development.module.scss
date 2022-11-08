@@ -1,0 +1,24 @@
+.development__title {
+    font-weight: 700;
+    font-size: 60px;
+    padding-left: 60px;
+    color: #ffffff;
+}
+
+.development__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1320px;
+}
+
+.development__content {
+    display: flex;
+    width: 560px;
+}
+
+.development__content__text {
+    display: flex;
+    flex-direction: column;
+}
