@@ -1,8 +1,9 @@
 .container {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1312px;
+    margin: 0 auto;
 }
 
 .header__logo {
