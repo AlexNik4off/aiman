@@ -1,0 +1,31 @@
+.partners__container {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__container h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.partners__buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.partners__button {
+    width: 220px;
+    height: 80px;
+    border-radius: 32px;
+    background: linear-gradient(180deg, rgba(186, 185, 185, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.partners__img {
+    background: transparent;
+}
