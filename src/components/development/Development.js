@@ -13,7 +13,7 @@ function Development() {
         <h1 className={styles.development__title}>THE DEVELOPMENT OF AI</h1>
         <div className={styles.development__container}>
             <div className={styles.development__content}>
-                <img src={annotate} alt="img"></img>
+                <img src={annotate} alt="img" className={styles.development__img}></img>
                 <div className={styles.development__content__text}>
                 <p className={styles.development__content__title}>Annotate</p>
                 <p className={styles.development__content__desc}>Annotate large volumes of 3D sensor, image, and video data.</p>
